@@ -1,4 +1,6 @@
 site_name: FastAPI Deployement
+site_url: https://github.com/Buddhadeb/fastapi-deployment-windows/
+repo_url: https://github.com/Buddhadeb/fastapi-deployment-windows
 theme:
   name: material
 
