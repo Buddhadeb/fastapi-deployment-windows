@@ -1,0 +1,29 @@
+site_name: FastAPI Deployement
+theme:
+  name: material
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.tab
+    - content.code.annotation
+    - content.code.copy
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+nav:
+  - Home: index.md
+  - FastAPI Deployment:
+      - Setting Up FastAPI: setting-up-fastapi.md
+      - Deployment: deployment.md
